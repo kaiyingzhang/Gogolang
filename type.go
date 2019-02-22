@@ -67,15 +67,15 @@ func main() {
     cmul := c1 * c2
     fmt.Println("product:", cmul)
 
-
     //string
-    first := "kaii"
+
+    firstname := "kaii"
     last := "zan"
 
-    name := first + " " + last
+    name := firstname + " " + last
     fmt.Println(name)
 
-    
+
 
 }
 
