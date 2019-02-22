@@ -46,4 +46,7 @@ func main() {
     fmt.Println("a : " , aa , " b :" , bb ," c " , c)
 	//-------------------------------------------------
 
+	//":=" replace the var and type!!! this is kind of short hand syntax. But it can only used inside the function. 
+	//if you use ":=" outside a function, it will get an error!
+
 }
