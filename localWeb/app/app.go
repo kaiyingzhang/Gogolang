@@ -1,7 +1,7 @@
 package app
 
 import (
-	"./handler"
+	"../handler"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
 	"log"

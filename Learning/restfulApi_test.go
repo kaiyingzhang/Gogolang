@@ -1,4 +1,4 @@
-package main// name of package
+package main // name of package
 
 // using fmt package/function/ fmt：formatted IO function
 import "fmt"

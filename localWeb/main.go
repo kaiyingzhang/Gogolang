@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./app"
+	"github.com/kaiyingzhang/Gogolang/tree/master/Go_HTTP/localWeb/app"
 	// "./config"
 )
 
