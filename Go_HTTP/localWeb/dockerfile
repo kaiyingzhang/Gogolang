@@ -1,0 +1,11 @@
+FROM golang:latest
+
+MAINTAINER kay "kaiyzhangtesla@gmail.com"
+
+WORKDIR $GOPATH/src/go-example
+COPY . $GOPATH/src/go-example
+RUN go build .
+
+EXPOSE 8080
+
+ENTRYPOINT ["./localweb"]
