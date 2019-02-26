@@ -1,16 +1,21 @@
 package app
 
 import (
-	"../handler"
+	"fmt"
+	"github.com/kaiyingzhang/Gogolang/localWeb/handler"
 	"github.com/gorilla/mux"
-	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm"
 	"log"
 	"net/http"
 )
 // App has router and db instances
 type App struct {
 	Router      *mux.Router
-	DB     *gorm.DB
+	// DB     *gorm.DB
+}
+
+func init() {
+	fmt.Println("app package initialized")
 }
 
 // // Initialize initializes the app with predefined configuration
