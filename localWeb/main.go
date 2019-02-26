@@ -1,4 +1,4 @@
-package app
+package main
 
 import (
 	"github.com/kaiyingzhang/Gogolang/localWeb/app"
@@ -6,8 +6,6 @@ import (
 )
 
 func main() {
-
-	// config := config.GetConfig()
 
 	app := &app.App{}
 	app.Initialize()

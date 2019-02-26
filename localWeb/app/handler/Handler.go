@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/kaiyingzhang/Gogolang/localWeb/model"
+	"github.com/kaiyingzhang/Gogolang/localWeb/app/model"
 	"net/http"
 )
 

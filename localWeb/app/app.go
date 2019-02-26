@@ -2,9 +2,9 @@ package app
 
 import (
 	"fmt"
-	"github.com/kaiyingzhang/Gogolang/localWeb/handler"
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm"
+	"github.com/kaiyingzhang/Gogolang/localWeb/app/handler"
 	"log"
 	"net/http"
 )
@@ -78,6 +78,14 @@ func (a *App) GetInitial(w http.ResponseWriter, r *http.Request) {
 func (a *App) GetAllEmployees(w http.ResponseWriter, r *http.Request) {
 	handler.GetAllEmployees(w, r)
 }
+
+// func main() {
+//
+// 	app := &app.App{}
+// 	app.Initialize()
+// 	app.Run(":8080")
+//
+// }
 
 
 func (a *App) Run(host string) {
